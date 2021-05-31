@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Product Responsive Web Design - Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CONTACT - ZALANBRO</title>
     <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   </head>
@@ -29,25 +29,42 @@
     </nav>
     <hr>
   </header>
-  <body>
-  <div class="clearfix">
-      <img src="../img.jpg" class="d-flex img-fluid float-left col-md-6">
-    <br>
-    <div class="d-flex justify-content-center col-md-6">
-      <H1>Tshirt</H1>
+  <body>  
+    <h3 class="text-center">Contactez-nous</h3>
+    <hr>
+  <form>
+    <div class="container pt-2">      
+      <div class="row pt-3">
+        <div class="col">
+          <h6>Adresse mail :</h6>
+          <input type="text" class="form-control" id="email" placeholder="adresse@mail.com" name="email">
+        </div>
+      </div>
+      <div class="row py-3">
+        <div class="col-6">
+          <h6>Prénom :</h6>
+          <input type="text" class="form-control" id="prenom" placeholder="Albert" name="prenom">
+        </div>
+        <div class="col-6">
+          <h6>Nom :</h6>
+          <input type="text" class="form-control" id="nom" placeholder="Bernard" name="nom">
+        </div>
+        <div class="col-6 pt-3">
+          <h6>Sujet :</h6>
+          <input type="text" class="form-control" id="titre" placeholder="Commande..." name="email">
+        </div>
+        <div class="col-12 py-3">
+          <h6>Message: </h6>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+        </div>
+      </div>
+      <button class="btn btn-primary">Envoyer</button>
     </div>
-    <div class="d-flex justify-content-center col-md-6">
-      <p>ref : 3230834904753</p>
-    </div>
-    <div class="d-flex m-2 col-md-6">
-      <p>La marque de vêtements et d'accessoires de plein air Kavu est là pour vous faire passer un bon moment. Conçue pour vos loisirs, sa gamme de vêtements et d'accessoires de plein air est agrémentée d'imprimés et de textures agréables, des motifs aztèques multicolores, aux polaires ultra confortables en passant par des tissus en fausse fourrure super doux</p>
-    </div>
-  </div>
+  </form>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
-  <br>
   <footer class="text-center text-lg-start bg-light text-muted">
     <section
       class="d-flex p-4 border-bottom d-flex justify-content-center">
@@ -75,7 +92,7 @@
         </a>
       </div>
     </section>
-    <section class="">
+    <section>
       <div class="container text-center text-md-start mt-5">
         <div class="row mt-3">
           <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
